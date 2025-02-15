@@ -14,6 +14,15 @@ function redirect3() {
     window.open("https://drive.google.com/drive/folders/19lUzeLMaV18y7HfpspxU7codNNqHFQT_?usp=drive_link", "_blank");
 }
 
+function redirect4() {
+  window.open("https://drive.google.com/drive/folders/1Gdkf_YCP13gutsKCC_fondc2RHQ4Yw6G?usp=drive_link")
+}
+
+function redirect5() {
+  window.open("https://drive.google.com/drive/folders/1A_WdC4vnQu4Pm5IvkCOv3g3wbjSUqQdR?usp=drive_link")
+}
+
+
 
 const textContent = `BPH 2024 - 2026
 
@@ -38,7 +47,7 @@ function typeContent() {
     const contentDiv = document.getElementById("typing-content");
     contentDiv.innerHTML = contentDiv.innerHTML
       .replace("Rina Liska", '<a href="https://www.instagram.com/rina_iska/" target="_blank">Rina Liska</a>')
-      .replace("Michael Sitanggang", '<a href="https://www.instagram.com/thiskaell_/" target="_blank">Michael Sitanggang</a>')
+      .replace("Michael Sitanggang", '<a href="https://www.instagram.com/michaelstgg_0/" target="_blank">Michael Sitanggang</a>')
       .replace("Angelika Naibaho", '<a href="https://www.instagram.com/_angelnb/" target="_blank">Angelika Naibaho</a>')
       .replace("Elisabet Sijabat", '<a href="https://www.instagram.com/elisabeth.sisilia/" target="_blank">Elisabet Sijabat</a>');
   }
